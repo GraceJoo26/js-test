@@ -128,15 +128,7 @@ exports.default = getType;
 function getType(data) {
   return Object.prototype.toString.call(data).slice(8, -1);
 }
-},{}],"test.js":[function(require,module,exports) {
-"use strict";
-
-var _getType = _interopRequireDefault(require("./getType"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-console.log((0, _getType.default)(false));
-},{"./getType":"getType.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -340,5 +332,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","test.js"], null)
-//# sourceMappingURL=/test.e98b79dd.js.map
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","getType.js"], null)
+//# sourceMappingURL=/getType.9a0c04a5.js.map
