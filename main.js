@@ -26,7 +26,7 @@ console.log(isEqual( 2, '2' ))
 
 //논리 연산자 (logical operator)
 
-const a = 1 === 123
+/* const a = 1 === 123
 const b = 'AB' === 'ABc'
 const c = false
 
@@ -36,4 +36,17 @@ console.log(c)
 
 console.log('&&: ', a && b && c)
 console.log('||: ', a || b || c)
-console.log('!: ',!a) //not 연산자
+console.log('!: ',!a) */ //not 연산자
+
+
+
+//삼항연산자 (ternary operator)
+
+const a = 1<2
+if (a) {
+    console.log('true')
+} else {
+    console.log('false')
+}
+
+console.log(a ? 'true' : 'false')
