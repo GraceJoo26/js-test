@@ -42,11 +42,25 @@ console.log('!: ',!a) */ //not 연산자
 
 //삼항연산자 (ternary operator)
 
-const a = 1<2
+/* const a = 1<2
 if (a) {
     console.log('true')
 } else {
     console.log('false')
 }
 
-console.log(a ? 'true' : 'false')
+console.log(a ? 'true' : 'false') */
+
+
+import random from './getRandom'
+// 조건문 (If statement)
+
+const a = random()
+
+if (a === 0) {
+    console.log('a is 0')
+} else if ( a === 2){
+    console.log('a is 2')
+} else {
+    console.log('rest...')
+}

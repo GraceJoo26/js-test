@@ -154,15 +154,14 @@ console.log('!: ',!a) */
 //not 연산자
 //삼항연산자 (ternary operator)
 
-var a = 1 < 2;
-
+/* const a = 1<2
 if (a) {
-  console.log('true');
+    console.log('true')
 } else {
-  console.log('false');
+    console.log('false')
 }
 
-console.log(a ? 'true' : 'false');
+console.log(a ? 'true' : 'false') */
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -191,7 +190,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55637" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62352" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
