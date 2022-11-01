@@ -4,7 +4,6 @@
 //a = a + 1
 //a /= 1
 
-console.log(a)
 
 
 //비교연산자 (conparison operator)
@@ -52,10 +51,10 @@ if (a) {
 console.log(a ? 'true' : 'false') */
 
 
-import random from './getRandom'
+
 // 조건문 (If statement)
 
-const a = random()
+/* const a = random()
 
 if (a === 0) {
     console.log('a is 0')
@@ -63,4 +62,22 @@ if (a === 0) {
     console.log('a is 2')
 } else {
     console.log('rest...')
+} */
+
+//switch(a)문
+import random from './getRandom'
+
+const a = random()
+switch (a) {
+    case 0:
+        console.log('a is 0')
+        break
+    case 2:
+        console.log('a is 2')
+        break
+    case 4:
+        console.log('a is 4')
+        break
+    default:
+        console.log('rest...')
 }
